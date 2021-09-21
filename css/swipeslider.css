@@ -1,0 +1,224 @@
+.indexs-title {
+    width: 100%;
+    height: 3rem;
+    position: absolute;
+}
+
+.index-title {
+    position: absolute;
+    top: 0.69rem;
+    z-index: 1900;
+    left: 50%;
+    margin-left: -4rem;
+    width: 7.94rem;
+    height: 1.66rem;
+    border-radius: 0.83rem;
+    background-color: #ffffff;
+}
+
+.index-title > div {
+    float: left;
+    width: 50%;
+    height: 1.66rem;
+    line-height: 1.66rem;
+    text-align: center;
+    position: relative;
+    z-index: 20;
+    font-size: 0.9rem;
+}
+
+.index-del {
+    border-radius: 0.9rem;
+    color: #ffffff;
+    background-color: #FC6173;
+    font-weight: bold;
+}
+
+.index-nodel {
+    border-radius: 0.9rem;
+    color: #727272;
+}
+
+/*周几设置*/
+.index-update {
+    overflow: hidden;
+}
+
+.up-title {
+    height: 2.375rem;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url("../img/index/updateBg@2x.png");
+    height: 2.375rem;
+    box-sizing: border-box;
+    padding: 0 .5rem;
+}
+
+.up-title .up-li {
+    display: flex;
+}
+
+.up-title .up-li li {
+    flex: 1;
+    line-height: 2.375rem;
+    text-align: center;
+    color: #A6A9B2;
+    font-size: 0.875rem;
+    position: relative;
+}
+
+.day-color {
+    font-weight: bold;
+    font-size: .9375rem!important;
+    color: #0ECFA6 !important;
+}
+
+.sp-show {
+    display: block !important;
+}
+
+/**/
+.swipslider {
+    position: relative;
+    display: block;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.swipslider .sw-slidess {
+    display: block;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    white-space: nowrap;
+    font-size: 0;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    position: absolute;
+    bottom: -0.069rem;
+}
+
+.swipslider .sw-slides {
+    display: block;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    white-space: nowrap;
+    font-size: 0;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    position: absolute;
+    bottom: 0
+}
+
+.swipslider .sw-slide {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+
+}
+
+#full_featureB .sw-bullet {
+    display: none;
+}
+
+.nnn {
+    height: 1.727115rem;
+    line-height: 1.727115rem;
+    display: block;
+    font-size: 1.243523rem;
+    color: #333333;
+    margin-top: 0.345423rem;
+    font-weight: bold;
+}
+
+.nnnn {
+    font-size: 0.8981rem;
+    color: #B1B1B1;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    display: block;
+    margin-top: 0.345rem;
+    max-width: 66%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-weight: 500;
+}
+
+.swipslider .sw-slide > img {
+    height: 100%;
+    position: absolute;
+    max-height: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.swipslider .sw-slide .sw-content {
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 14px
+}
+
+.sw-next-prev {
+    font-family: courier new, Courier, monospace;
+    display: none;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    line-height: 50px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgba(160, 160, 160, .53);
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background-color: transparent;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: all .2s ease-out;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.sw-next-prev:hover {
+    background-color: rgba(255, 255, 255, .74)
+}
+
+.sw-next-prev:active {
+    background-color: rgba(255, 255, 255, .5)
+}
+
+.sw-prev {
+    left: 2%
+}
+
+.sw-prev::after {
+    content: '<'
+}
+
+.sw-next {
+    right: 2%
+}
+
+.sw-next::after {
+    content: '>'
+}
+
